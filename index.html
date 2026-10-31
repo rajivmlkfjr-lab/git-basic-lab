@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rajiv Malik Fajar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        nav {
+            background: #1e293b;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 22px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000010;
+        }
+
+        h2 {
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #2563eb;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #dbeafe;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        a {
+            color: #2563eb;
+        }
+
+        .social a {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 8px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            aspect-ratio: 16 / 9;
+            border: none;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Bagian Judul -->
+    <header>
+        <h1>Rajiv Malik Fajar</h1>
+        <p>Mahasiswa Informatika | Universitas Sebelas April</p>
+        <p>Belajar, Berkarya, dan Mencari Pengalaman</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#hobi">Hobi</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main class="container">
+
+        <!-- Profil -->
+        <section class="profile" id="tentang">
+            <h2>Tentang Saya</h2>
+
+            <!-- Ganti profil.jpg dengan foto milik sendiri -->
+            <img src="profil.jpg" alt="Foto Rajiv Malik Fajar">
+
+            <p>
+                Halo! Perkenalkan, saya
+                <strong>Rajiv Malik Fajar</strong>,
+                mahasiswa Fakultas Teknologi Informasi,
+                Program Studi Informatika,
+                Universitas Sebelas April.
+            </p>
+
+            <p>
+                Saya memiliki semangat untuk terus belajar,
+                berkelana mencari pengalaman baru,
+                mengembangkan kemampuan, dan mencoba
+                berbagai hal positif.
+            </p>
+
+            <blockquote>
+                "Kesempatan tidak datang dua kali,
+                maka teruslah belajar dan berani mencoba."
+            </blockquote>
+        </section>
+
+        <!-- Keahlian -->
+        <section id="keahlian">
+            <h2>Keahlian Saya</h2>
+            <ul>
+                <li>Public Speaking</li>
+                <li>Mengoperasikan Microsoft Office</li>
+                <li>Komunikasi dan kerja sama</li>
+                <li>Semangat belajar hal baru</li>
+            </ul>
+        </section>
+
+        <!-- Pengalaman -->
+        <section id="pengalaman">
+            <h2>Pengalaman dan Pendidikan</h2>
+
+            <table>
+                <tr>
+                    <th>Kegiatan</th>
+                    <th>Instansi</th>
+                    <th>Keterangan</th>
+                </tr>
+                <tr>
+                    <td>Pendidikan</td>
+                    <td>Universitas Sebelas April</td>
+                    <td>Mahasiswa Informatika</td>
+                </tr>
+                <tr>
+                    <td>Pengembangan Diri</td>
+                    <td>Belajar Mandiri</td>
+                    <td>Mengembangkan Public Speaking dan Microsoft Office</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Hobi -->
+        <section id="hobi">
+            <h2>Hobi Saya</h2>
+
+            <h3>Daftar Hobi</h3>
+            <ul>
+                <li>Berkelana mencari pengalaman</li>
+                <li>Olahraga bola</li>
+                <li>Bermain game</li>
+            </ul>
+
+            <h3>Hal yang Ingin Saya Kembangkan</h3>
+            <ol>
+                <li>Meningkatkan kemampuan komunikasi</li>
+                <li>Memperdalam ilmu Informatika</li>
+                <li>Mendapatkan pengalaman baru</li>
+            </ol>
+        </section>
+
+        <!-- Audio -->
+        <section>
+            <h2>Lagu Favorit</h2>
+            <p>Berikut pemutar audio untuk lagu favorit saya:</p>
+
+            <audio controls>
+                <source src="lagu.mp3" type="audio/mpeg">
+                Browser tidak mendukung pemutar audio.
+            </audio>
+        </section>
+
+        <!-- Video -->
+        <section>
+            <h2>Video Karya</h2>
+            <p>Video karya atau dokumentasi kegiatan saya:</p>
+
+            <!-- Ganti VIDEO_ID dengan ID video YouTube milik sendiri -->
+            <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID"
+                title="Video karya Rajiv"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- Media Sosial -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+
+            <div class="social">
+                <a href="https://www.instagram.com/rajivm.f"
+                   target="_blank">Instagram</a>
+
+                <a href="https://www.linkedin.com/in/rajiv-malik-fajar-a4523139a/"
+                   target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Rajiv Malik Fajar. All Rights Reserved.</p>
+        <p>Portofolio Pribadi - Informatika</p>
+    </footer>
+
+</body>
+</html>
